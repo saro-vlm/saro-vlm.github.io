@@ -3,21 +3,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="SARO: Space-Aware Robot System for Terrain Crossing via Vision-Language Model">
+    <meta name="keywords" content="Vision-Language Model, Legged Locomotion, Reinforcement Learning">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SARO: Space-Aware Robot System for Terrain Crossing via Vision-Language Model</title>
-    <link rel="shortcut icon" href="./static/icon.png">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'G-PYVRSFMDRL');
-    </script>
 
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -27,58 +16,62 @@
     <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="./static/css/index.css">
-    <link rel="icon" href="./static/images/favicon.svg">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="./static/js/fontawesome.all.min.js"></script>
     <script src="./static/js/bulma-carousel.min.js"></script>
     <script src="./static/js/bulma-slider.min.js"></script>
     <script src="./static/js/index.js"></script>
+
+    <link rel="icon" href="./icon.png">
+
+    <script src="https://www.youtube.com/iframe_api"></script>
 </head>
 
+
 <body>
+
     <section class="hero">
         <div class="hero-body">
-            <div class="container is-max-desktop">
+            <div class="container">
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-1 publication-title">SARO: <u>S</u>pace-<u>A</u>ware <u>Ro</u>bot System for Terrain Crossing <i>via</i> Vision-Language Model</h1>
+                        <h1 class="title is-1 publication-title">SARO: <u>S</u>pace-<u>A</u>ware <u>Ro</u>bot System <br>for Terrain Crossing <i>via</i> Vision-Language Model</h1>
                         <div class="is-size-5 publication-authors">
                             <span class="author-block">
-              <a href="https://github.com/zst1406217">Shaoting Zhu</a><sup>*</sup>&nbsp;&nbsp</span>
+                                <a href="https://github.com/zst1406217">Shaoting Zhu</a><sup>*</sup>&nbsp;&nbsp;</span>
                             <span class="author-block">
-              <a href="https://github.com/Dylan-LDR">Derun Li</a><sup>*</sup>&nbsp;&nbsp</span>
+                  <a href="https://github.com/Dylan-LDR">Derun Li</a><sup>*</sup>&nbsp;&nbsp;</span>
                             <span class="author-block">
-              <a href="https://scholar.google.com/citations?hl=zh-CN&user=qYcgBbEAAAAJ">Yong Liu</a>&nbsp;&nbsp
-            </span>
+                  <a href="https://scholar.google.com/citations?hl=zh-CN&user=qYcgBbEAAAAJ">Yong Liu</a>&nbsp;&nbsp;
+                </span>
                             <span class="author-block">
-              <a href="#">Ningyi Xu</a>&nbsp;&nbsp
-            </span>
+                  <a href="#">Ningyi Xu</a>&nbsp;&nbsp;
+                </span>
                             <span class="author-block">
-              <a href="https://scholar.google.com/citations?hl=zh-CN&user=DmahiOYAAAAJ">Hang Zhao</a><sup>†</sup>
-            </span>
+                  <a href="https://scholar.google.com/citations?hl=zh-CN&user=DmahiOYAAAAJ">Hang Zhao</a><sup>†</sup>
+                </span>
+                            </span>
                         </div>
-
                         <div class="is-size-5 publication-authors">
-                            * Equal contribution, † Corresponding author
+                            * Equal contribution&nbsp;&nbsp;† Corresponding author
                         </div>
-
-			<div class="column">
-                            <image src="./static/images/logo.png" style="width:80%;"></image>
+                        <div class="column">
+                            <image src="./static/images/logo.png" style="width:60%;"></image>
                         </div>
                         <div class="is-size-4 publication-authors">
                             In Submission
                         </div>
-
                         <div class="column has-text-centered">
                             <div class="publication-links">
- 				<!-- Appendix Link. -->
+                                <!-- Appendix Link. -->
                                 <span class="link-block">
                 <a href="#"
-                   class="external-link button is-normal is-rounded is-dark" target="_blank">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
+                class="external-link button is-normal is-rounded is-dark" target="_blank">
+                <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                </span>
                                 <span>Appendix</span>
                                 </a>
                                 </span>
@@ -118,9 +111,9 @@
                     class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <svg style="color: white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M488.6 104.1C505.3 122.2 513 143.8 511.9 169.8V372.2C511.5 398.6 502.7 420.3 485.4 437.3C468.2 454.3 446.3 463.2 419.9 464H92.02C65.57 463.2 43.81 454.2 26.74 436.8C9.682 419.4 .7667 396.5 0 368.2V169.8C.7667 143.8 9.682 122.2 26.74 104.1C43.81 87.75 65.57 78.77 92.02 78H121.4L96.05 52.19C90.3 46.46 87.42 39.19 87.42 30.4C87.42 21.6 90.3 14.34 96.05 8.603C101.8 2.868 109.1 0 117.9 0C126.7 0 134 2.868 139.8 8.603L213.1 78H301.1L375.6 8.603C381.7 2.868 389.2 0 398 0C406.8 0 414.1 2.868 419.9 8.603C425.6 14.34 428.5 21.6 428.5 30.4C428.5 39.19 425.6 46.46 419.9 52.19L394.6 78L423.9 78C450.3 78.77 471.9 87.75 488.6 104.1H488.6zM449.8 173.8C449.4 164.2 446.1 156.4 439.1 150.3C433.9 144.2 425.1 140.9 416.4 140.5H96.05C86.46 140.9 78.6 144.2 72.47 150.3C66.33 156.4 63.07 164.2 62.69 173.8V368.2C62.69 377.4 65.95 385.2 72.47 391.7C78.99 398.2 86.85 401.5 96.05 401.5H416.4C425.6 401.5 433.4 398.2 439.7 391.7C446 385.2 449.4 377.4 449.8 368.2L449.8 173.8zM185.5 216.5C191.8 222.8 195.2 230.6 195.6 239.7V273C195.2 282.2 191.9 289.9 185.8 296.2C179.6 302.5 171.8 305.7 162.2 305.7C152.6 305.7 144.7 302.5 138.6 296.2C132.5 289.9 129.2 282.2 128.8 273V239.7C129.2 230.6 132.6 222.8 138.9 216.5C145.2 210.2 152.1 206.9 162.2 206.5C171.4 206.9 179.2 210.2 185.5 216.5H185.5zM377 216.5C383.3 222.8 386.7 230.6 387.1 239.7V273C386.7 282.2 383.4 289.9 377.3 296.2C371.2 302.5 363.3 305.7 353.7 305.7C344.1 305.7 336.3 302.5 330.1 296.2C323.1 289.9 320.7 282.2 320.4 273V239.7C320.7 230.6 324.1 222.8 330.4 216.5C336.7 210.2 344.5 206.9 353.7 206.5C362.9 206.9 370.7 210.2 377 216.5H377z" fill="white"></path></svg>                    </span>
-                    <span>Bilibili</span>
-                </a>
-              </span>
+                                <span>Bilibili</span>
+                                </a>
+                                </span>
                                 <!-- Poster Link. -->
                                 <!-- <span class="link-block">
                 <a href="./resources/poster-compressed.pdf"
@@ -142,22 +135,27 @@
                                 </span>
                             </div>
                         </div>
+                        <div class="columns is-centered">
+                            <div class="column is-three-fifths is-centered has-text-centered">
+                                <figure>
+                                    <img src="./static/images/figure1.jpg" alt="figure1" style="width: 100%;">
+                                </figure>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <div class="column" align="center" style="margin-top: -20px;">
-        <img src="./static/images/figure1.jpg" style="width: 70%;">
-    </div>
 
     <section class="section">
         <div class="container">
             <div class="columns is-centered">
                 <div class="column is-full-width is-centered has-text-centered">
+                    <!-- <h2 class="title is-2" style="text-align: center;" id="method-video" >Real-World Robot Parkour Demos</h2> -->
                     <div class="publication-video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PFFRgCEgqhc?si=iGvkQPgqxSABkyu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PFFRgCEgqhc?si=HbTcwiDEsld_ftrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -165,182 +163,140 @@
     </section>
 
     <section class="section">
-        <div class="container is-max-desktop">
+        <div class="container">
             <!-- Abstract. -->
             <div class="columns is-centered has-text-centered">
-                <div class="column is-four-fifths">
-                    <h2 class="title is-3">Abstract</h2>
+                <div class="column is-two-thirds">
+                    <h2 class="title is-2">Abstract</h2>
                     <div class="content has-text-justified">
                         <p>
-                            The application of vision-language models (VLMs) has achieved impressive success in various robotics tasks, but there are few explorations for foundation models used in quadruped robot navigation. We introduce <span class="dnerf">Cross Anything System</span>
-                            <b>(CAS)</b>, an innovative system composed of a high-level reasoning module and a low-level control policy, enabling the robot to navigate across complex 3D terrains and reach the goal position.
-                        </p>
-                        <p>
-                            For high-level reasoning and motion planning, we propose a novel algorithmic system taking advantage of a VLM, with a design of task decomposition and a closed-loop sub-task execution mechanism. For low-level locomotion control, we utilize the
-                            <span class="dnerf">Probability Annealing Selection</span>
-                            <b>(PAS)</b> method to train a control policy by reinforcement learning.
-                        </p>
-                        <p>
-                            Numerous experiments show that our whole system can accurately and robustly navigate across complex 3D terrains, and its strong generalization ability ensures the applications in diverse indoor and outdoor scenarios and terrains.
+                            The application of vision-language models (VLMs) has achieved impressive success in various robotics tasks. However, there are few explorations for foundation models used in quadruped robot navigation through terrains in 3D environments. We introduce
+                            <b>SARO</b> (<u>S</u>pace-<u>A</u>ware <u>Ro</u>bot System for Terrain Crossing), an innovative system composed of a high-level reasoning module, a closed-loop sub-task execution module, and a low-level control policy. It enables
+                            the robot to navigate across 3D terrains and reach the goal position. For high-level reasoning and execution, we propose a novel algorithmic system taking advantage of a VLM, with a design of task decomposition and a closed-loop
+                            sub-task execution mechanism. For low-level locomotion control, we utilize the <u>P</u>robability <u>A</u>nnealing <u>S</u>election <b>(PAS)</b> method to effectively train a control policy by reinforcement learning. Numerous
+                            experiments show that our whole system can accurately and robustly navigate across several 3D terrains, and its generalization ability ensures the applications in diverse indoor and outdoor scenarios and terrains.
                         </p>
                     </div>
                 </div>
             </div>
-            <!--/ Abstract. -->
         </div>
     </section>
 
+
+
     <section class="section">
-        <div class="container is-max-desktop">
-            <!-- Pipeline. -->
+        <div class="container">
+            <h2 class="title is-2" style="text-align: center;">Method</h2>
+            <h2 class="title is-4" style="text-align: center;">SARO System Framework Overview</h2>
             <div class="columns is-centered has-text-centered">
-                <div class="column is-four-fifths">
-                    <h2 class="title is-3">Pipeline</h2>
-                    <div class="column" align="center" style="margin-top: 0px;">
-                        <img src="./static/images/system.jpg" style="width: 120%;">
-                    </div>
-                    <div class="column" align="center" style="margin-top: 0px;">
-                        <img src="./static/images/pipeline.jpg" style="width: 120%;">
+                <div class="column is-two-thirds">
+                    <div class="content has-text-justified">
+                        <p>
+                            SARO system is composed of a high-level reasoning module, a closed-loop sub-task execution module, and a low-level control policy. The robot needs to complete a goal-tracking task while autonomously navigating through a 3D terrain. The pretrained vision-language
+                            foundation model (VLM) takes as input RGB images and prompts querying the 3D environment perception to decompose the task into sub-tasks. After that, the system executes these sub-tasks in a closed-loop taking advantage of
+                            VLM discriminator double-check. The well-designed sub-task execution module connects the high-level VLM and the low-level control policy and receives depth image and stereo image information to help localization.
+                        </p>
                     </div>
                 </div>
             </div>
-            <!--/ Pipeline. -->
-        </div>
-    </section>
-
-    <section class="section">
-        <h2 class="title is-3" align="center" style="margin-bottom: 20px;">Experiments</h2>
-        <div class="column" align="center" style="margin-bottom: 30px;">
-            <img src="./static/images/result_1.png" style="width: 70%;">
-        </div>
-
-        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column is-three-fifths is-centered has-text-centered">
+                    <figure>
+                        <img src="./static/images/system.jpg" alt="system" style="width: 100%;">
+                    </figure>
+                </div>
+            </div>
+            <h2 class="title is-4" style="text-align: center;">Closed-Loop Sub-Task Execution Module</h2>
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-two-thirds">
+                    <div class="content has-text-justified">
+                        <p>
+                            After task decomposition, the system executes the sub-tasks one by one. The double-check closed-loop module improves the robustness of the system. </p>
+                    </div>
+                </div>
+            </div>
 
             <div class="columns is-centered">
-
-                <!-- Visual Effects. -->
-                <div class="column">
-                    <div class="content">
-                        <h2 class="title is-5">Indoor Stair Experiments</h2>
-                        <video id="stair" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/stair_indoor.mp4"
-                    type="video/mp4">
-          </video>
-                    </div>
+                <div class="column is-three-fifths is-centered has-text-centered">
+                    <figure>
+                        <img src="./static/images/ring.jpg" alt="ring" style="width: 100%;">
+                    </figure>
                 </div>
-                <!--/ Visual Effects. -->
+            </div>
 
-                <!-- Matting. -->
-                <div class="column">
-                    <h2 class="title is-5">Indoor Ramp Experiments</h2>
-                    <div class="columns is-centered">
-                        <div class="column content">
-                            <video id="ramp" controls playsinline height="100%">
-              <source src="./static/videos/ramp_indoor.mp4"
-                      type="video/mp4">
-            </video>
-                        </div>
-
+            <h2 class="title is-4" style="text-align: center;">Low-Level Locomotion Policy</h2>
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-two-thirds">
+                    <div class="content has-text-justified">
+                        <p>
+                            We conduct two-stage training paradigm to obtain robust low-level locomotion policy. In the first training step, we train an oracle policy using proprioception, privileged state, and terrain information. In the second training step, we use the probability
+                            annealing selection <b>(PAS)</b> method to train the final actor network, which only uses proprioception as input. After the policy training process is finished, we exclusively train a terrain estimator
+                            to classify whether the robot is on the plane or is climbing the intermediation. </p>
                     </div>
                 </div>
             </div>
-            <!--/ Matting. -->
+            <div class="columns is-centered">
+                <div class="column is-three-fifths is-centered has-text-centered">
+                    <img src="./static/images/pipeline.jpg" alt="pipeline" style="width: 100%;" />
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <div class="container is-max-desktop">
-
-                <div class="columns is-centered">
-
-                    <!-- Visual Effects. -->
-                    <div class="column">
-                        <div class="content">
-                            <h2 class="title is-5">Indoor Gap Experiments</h2>
-                            <video id="gap" autoplay controls muted loop playsinline height="100%">
-                  <source src="./static/videos/gap.mp4"
-                          type="video/mp4">
-                </video>
-                        </div>
-                    </div>
-                    <!--/ Visual Effects. -->
-
-                    <!-- Matting. -->
-                    <div class="column">
-                        <h2 class="title is-5">Indoor Door Experiments</h2>
-                        <div class="columns is-centered">
-                            <div class="column content">
-                                <video id="door" controls playsinline height="100%">
-                    <source src="./static/videos/door.mp4"
-                            type="video/mp4">
-                  </video>
-                            </div>
-
-                        </div>
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2" style="text-align: center;">Real-World Experiment</h2>
+            <h2 class="title is-4" style="text-align: center;">Indoor</h2>
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-two-thirds">
+                    <div class="content has-text-justified">
+                        <p>
+                            To evaluate our crossing system, experiments are conducted based on versatile routes in the real world. We test the robustness on different terrains including stairs, ramps, gaps, and doors. For every terrain, the goals are at various directions.
+                        </p>
                     </div>
                 </div>
-                <!--/ Matting. -->
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-three-fifths is-centered has-text-centered">
+                    <figure>
+                        <img src="./static/images/indoor.jpg" alt="indoor" style="width: 80%;">
+                    </figure>
+                </div>
+            </div>
 
-                <div class="container is-max-desktop">
-
-                    <div class="columns is-centered">
-
-                        <!-- Visual Effects. -->
-                        <div class="column">
-                            <div class="content">
-                                <h2 class="title is-5">Outdoor Experiments</h2>
-                                <video id="outdoor" autoplay controls muted loop playsinline height="100%">
-                    <source src="./static/videos/outdoor.mp4"
-                            type="video/mp4">
-                  </video>
-                            </div>
-                        </div>
-                        <!--/ Visual Effects. -->
-
-                        <!-- Matting. -->
-                        <div class="column">
-                            <h2 class="title is-5">Additional Locomotion Experiments</h2>
-                            <div class="columns is-centered">
-                                <div class="column content">
-                                    <video id="locomotion" controls playsinline height="100%">
-                      <source src="./static/videos/locomotion.mp4"
-                              type="video/mp4">
-                    </video>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!--/ Matting. -->
-
-                    <div class="column" align="center">
-                        <h2 class="title is-5">Some Failure Cases Caused by ViNT</h2>
-                        <div class="columns is-centered">
-                            <div class="column content">
-                                <video id="vint" controls playsinline height="100%">
-                <source src="./static/videos/vint.mp4"
-                        type="video/mp4">
-              </video>
-                            </div>
-
-                        </div>
+            <h2 class="title is-4" style="text-align: center;">Outdoor</h2>
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-two-thirds">
+                    <div class="content has-text-justified">
+                        <p>
+                            Additionally, we test our system outdoors to show the generalizing ability. We spot that our framework can be easily extended to the wild environment and the versatile 3D terrain conditions can be covered by our robust perception, planning, and control
+                            pipeline. </p>
                     </div>
                 </div>
-
-                <section class="section" id="BibTeX">
-                    <div class="container is-max-desktop content">
-                        <h2 class="title">BibTeX</h2>
-                        <pre><code>@article{zhu2024cross,
-  title={Cross Anything: General Quadruped Robot Navigation through Complex Terrains},
-  author={Zhu, Shaoting and Li, Derun and Liu, Yong and Xu, Ningyi and Zhao, Hang},
-  journal={arXiv preprint arXiv:2407.16412},
-  year={2024}
-}</code></pre>
-                    </div>
-                </section>
-
-                <div class="content is-centered" align="center">
-                    <p>
-                        Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
-                    </p>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-three-fifths is-centered has-text-centered">
+                    <figure>
+                        <img src="./static/images/outdoor.jpg" alt="outdoor" style="width: 80%;">
+                    </figure>
                 </div>
+            </div>
+
+            <section class="section" id="BibTeX">
+                <div class="container content">
+                    <h2 class="titile">BibTeX</h2>
+                    <pre><code>TBA
+</code></pre>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="content has-text-centered">
+                        <p>Page template borrowed from <a href="https://nerfies.github.io/"><span class="dnerf">Nerfies</span></a>.</p>
+                    </div>
+                </div>
+            </footer>
 
 </body>
 
